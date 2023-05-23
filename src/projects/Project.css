@@ -1,0 +1,97 @@
+.portfolio__container {
+  display: grid;
+  grid-template-columns: 1fr 400px ;
+  row-gap: 2.5rem;
+}
+.portfolio__item {
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 2px solid transparent;
+  background: transparent;
+  box-shadow: 0 4px 20px -2px #032f76;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.portfolio__item-image {
+  border-radius: 1.5rem 1.5rem 0 0; 
+  overflow: hidden;
+  width: fit-content;
+}
+.portfolio__item-image img {
+  width: fit-content;
+}
+
+.portfolio__item h3 {
+height: fit-content;
+     width: 50%;
+    text-align: center;
+    padding: 1.3rem;
+  border-radius: 2rem;
+  border: 2px solid transparent;
+  background: transparent;
+  box-shadow: 0 4px 20px -2px #032f76;
+   
+}
+
+.portfolio__item-cta {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 1rem;
+ 
+}
+.brief{
+  display: hide;
+}
+.brief:hover{
+width: 40%;
+    position: absolute;
+    left: 106px;
+    background: blue;
+    font-size: 11px;
+    text-align: left;
+    text-transform: lowercase;
+    line-height: 2;
+    padding: 24px;
+    border-radius: 3rem;
+}
+.portfolio__item-cta a {
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    text-align: center;
+    font: 9px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: #198cff;
+    border-radius: 40px;
+    text-shadow: 5px -1px 5px rgba(0, 0 ,0, .3);
+}
+.projectdata{
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+ justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolio__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+  .portfolio__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
