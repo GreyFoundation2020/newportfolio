@@ -63,7 +63,7 @@ export default function Contact() {
                     <h3 className="contact__card-title">Facebook</h3>
                     <span className="contact__card-data">@Gregory Gregory Udofa</span>
 
-                    <a href="" className="contact__button2">
+                    <a href="#submit" className="contact__button2">
                         Write me {''}
                         <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                     </a>

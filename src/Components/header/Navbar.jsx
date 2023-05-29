@@ -23,7 +23,7 @@ export default function Navbar() {
                         </a>
                     </li>
                      <li className="nav__item">
-                        <a href="" className="nav_link">
+                        <a href="#submit" className="nav_link">
                             <i className="uil uil-file-alt nav__icon"></i> Skills
                         </a>
                     </li>

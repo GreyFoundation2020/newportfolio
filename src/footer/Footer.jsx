@@ -24,16 +24,16 @@ export default function Footer() {
           </li>
         </ul>
     <div className="footer__social">
-      <a href="" className="footer__social-link"target='_blank'>
+      <a href="#submit" className="footer__social-link"target='_blank'>
         <i className="bx bxl-facebook"></i>
       </a>
-     <a href="" className="footer__social-link"target='_blank'>
+     <a href="#submit" className="footer__social-link"target='_blank'>
         <i className="bx bxl-instagram"></i>
       </a>
-      <a href="" className="footer__social-link"target='_blank'>
+      <a href="#submit" className="footer__social-link"target='_blank'>
         <i className="bx bxl-twitter"></i>
       </a>
-      <a href="" className="footer__social-link"target='_blank'>
+      <a href="#submit" className="footer__social-link"target='_blank'>
         <i className="bx bxl-github"></i>
       </a>
     </div>
