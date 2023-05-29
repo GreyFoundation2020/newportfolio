@@ -55,13 +55,20 @@ transition: 3s;
 
 @media screen and (max-width: 768px) {
   .header {
-    top: initial;
+    
+    top: 0;
+    justify-content: space-between;
     bottom: 0;
+    width: 34%;
     height: 9vh;
+    align-items: center;
+    display: flex;
+
   }
 
   .nav {
     height: var(--header-height);
+    width: 100%;
 
   }
   .nav__menu{
