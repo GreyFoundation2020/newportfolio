@@ -8,7 +8,7 @@ import {Data} from './Data'
 
 export default function Testimonial() {
   return (
-   <section className='testimonial container section'>
+   <section className='testimonial container contents section'>
         <h2 className="section__title">My clients Say</h2>
         <span className="section__subtitle">Testimonial</span>
         <div className="testimonial__container">
