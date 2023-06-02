@@ -134,7 +134,7 @@
  .active-modal{
     opacity: 1;
     visibility: visible;
-    width: 50%;
+    width: 100%;
 }
 }
 @media screen and (max-width: 350px) {

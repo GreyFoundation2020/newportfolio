@@ -45,7 +45,7 @@ const data = [
 
 export default function Project(){
   return (
-    <section className=' section ' id='contact'>
+    <section className=' section ' id='portfolio'>
        <h2 className="section__title">My Recent Work</h2>
         <span className="section__subtitle">Projects</span>
       <div className="container grid portfolio__container">
