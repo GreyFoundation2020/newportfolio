@@ -26,7 +26,7 @@ export default function Services() {
 
           <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
               <div className="services__modal-content">
-                <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close'>x</i>
+                <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close'></i>
                 <h3 className="services__modal-title">Product Designer</h3>
                 <p className="services__modal-description">
                   Am into web development with more than 2 years of experience. Providing quality work to clients and companies
@@ -81,7 +81,7 @@ export default function Services() {
 
             <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
               <div className="services__modal-content">
-                <i  onClick={() => toggleTab(0)}  className='uil uil-times services__modal-close'>x</i>
+                <i  onClick={() => toggleTab(0)}  className='uil uil-times services__modal-close'></i>
                 <h3 className="services__modal-title">Ui/Ux Designer</h3>
                 <p className="services__modal-description">
                   Am into web development with more than 2 years of experience. Providing quality work to clients and companies
@@ -136,7 +136,7 @@ export default function Services() {
 
             <div  className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
               <div className="services__modal-content">
-                <i  onClick={() => toggleTab(0)}  className='uil uil-times services__modal-close'>x</i>
+                <i  onClick={() => toggleTab(0)}  className='uil uil-times services__modal-close'></i>
                 <h3 className="services__modal-title">Web Development</h3>
                 <p className="services__modal-description">
                   Am into web development with more than 2 years of experience. Providing quality work to clients and companies
