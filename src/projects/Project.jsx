@@ -10,10 +10,10 @@ const data = [
     id: 1,
     image: IMG1,
     title: "OnSell",
-    github: "https://github.com/Ade-mir/MERN-social-media-platform",
-    demo: "https://peaceful-cranachan-56056a.netlify.app/",
+    github: "",
+    demo: "",
     brief:
-      "https://www.canva.com/design/DAFapZZx0GI/205p6bLMxmlp8Z4OjkvcMw/view?utm_content=DAFapZZx0GI&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu",
+      "",
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ const data = [
     id: 4,
     image: IMG4,
     title: "React Brochure Site",
-    github: "https://github.com/Ade-mir/brochure-site",
+    github: "",
     demo: "https://deluxe-gumption-ef08f4.netlify.app/",
     brief: "https://github.com/Ade-mir/brochure-site/blob/main/README.md",
   },
