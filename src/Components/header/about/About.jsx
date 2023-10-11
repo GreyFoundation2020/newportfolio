@@ -5,7 +5,7 @@ import CV from "../../../assets/CV.pdf"
 import Info from './Info';
 
 
-
+g
 export default function About() {
   return (
     <section className="about section" id='about'>
